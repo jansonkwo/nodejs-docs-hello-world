@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Janson Fork Docker Images Hello World!");
+    response.end("Docker Images Hello World!");
 });
 
 const port = process.env.PORT || 1337;
